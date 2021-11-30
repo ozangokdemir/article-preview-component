@@ -4,26 +4,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./styles/style.css">
   <title>Frontend Mentor | Article preview component</title>
 
 <body>
 
-  <article class="l-preview">
+  <div class="wrapper">
+    <article class="l-preview">
 
-    <h1 class="sr-only"></h1>
+      <h1 class="sr-only"></h1>
 
-    <div class="l-image">
-      <img src="./images/drawers.jpg" alt="drawers picture">
-    </div>
+      <div class="l-image">
+        <img src="./images/drawers.jpg" alt="drawers picture">
+      </div>
 
-    <section class="l-article">
-      <h2 class="article-title">Shift the overall look and feel by adding these wonderful 
-      touches to furniture in your home</h2>
-      <p class="article-text">Ever been in a room and felt like something was missing? Perhaps 
-      it felt slightly bare and uninviting. I’ve got some simple tips 
-      to help you make any room feel complete.</p>
+      <section class="l-article">
+        <h2 class="article-title">Shift the overall look and feel by adding these wonderful 
+        touches to furniture in your home</h2>
+        <p class="article-text">Ever been in a room and felt like something was missing? Perhaps 
+        it felt slightly bare and uninviting. I’ve got some simple tips 
+        to help you make any room feel complete.</p>
+      </section>
 
       <div class="l-author-infos">
         <div class="author-picture"><img src="./images/avatar-michelle.jpg" alt="Author picture"></div>
@@ -33,9 +35,9 @@
         </div>
         <button class="share-button"><img src="./images/icon-share.svg" alt="Share"></button>
       </div>
-    </section>
-
-  </article>
+      
+    </article>
+  </div>
 
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 

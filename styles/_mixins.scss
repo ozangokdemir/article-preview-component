@@ -19,3 +19,8 @@
         align-items: $align;
     }
 }
+
+@mixin grid-center() {
+    display: grid;
+    place-items: center;
+}
