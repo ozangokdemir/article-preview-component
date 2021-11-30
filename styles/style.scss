@@ -1,0 +1,31 @@
+@import './_mixins.scss';
+
+:root {
+    /*TEXT*/
+    --font-family: 'Manrope', sans-serif;
+
+    --font-weight-regular: 500;
+    --font-weight-bold: 700;
+
+    --font-size: 1.3rem;
+
+    /*COLORS*/
+    --very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --desaturated-dark-blue: hsl(214, 17%, 51%);
+    --grayhish-blue: hsl(212, 23%, 69%);
+    --light-grayish-blue: hsl(210, 46%, 95%);
+
+
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap; /* added line */
+    border: 0;
+}
