@@ -9,6 +9,8 @@
 
     --font-size: 1.3rem;
     --font-size-title: 2rem;
+    --font-size-mobile: 1.3rem;
+    --font-size-title-mobile: 1.6rem;
 
     /*COLORS*/
     --very-dark-grayish-blue: hsl(217, 19%, 35%);
@@ -101,7 +103,7 @@ body {
         }
     
         .article-date {
-            color: var(--grayhish-blue)
+            color: var(--grayhish-blue);
         }
     }
 
@@ -114,5 +116,42 @@ body {
         border-radius: 100%;
 
         background-color: var(--grayhish-blue-transparency);
+    }
+}
+
+
+@media screen and (max-width: 750px) {
+    body {
+        font-size: var(--font-size-mobile);
+    }
+    .l-preview {
+        grid-template-columns: 1fr;
+        grid-template-rows: .39fr .61fr;
+
+        height: 51.2rem;
+        width: 32.7rem;
+    }
+
+    .l-image {
+        height: 20rem;
+        border-radius: 1.6rem 1.6rem 0 0;
+
+        img {
+            max-height: none;
+            max-width: 100%;
+            margin-top: -1.5rem;
+        }
+    }
+
+    .l-article {
+        padding: 3rem 3.5rem 0;
+
+        .article-title {
+            font-size: var(--font-size-title-mobile);
+        }
+
+        .article-text {
+            line-height: 2rem;
+        }
     }
 }
