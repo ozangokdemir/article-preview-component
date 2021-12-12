@@ -23,7 +23,7 @@
         <img src="./images/drawers.jpg" alt="drawers picture">
       </div>
 
-      <section class="l-article">
+      <section id="article" class="l-article">
         <h2 class="article-title">Shift the overall look and feel by adding these wonderful 
         touches to furniture in your home</h2>
         <p class="article-text">Ever been in a room and felt like something was missing? Perhaps 
@@ -36,11 +36,12 @@
             <p class="author-name">Michelle Appleton</p>
             <p class="article-date">28 Jun 2020</p>
           </div>
-          <a href="#" class="share-button"><img src="./images/icon-share.svg" alt="Share"></a>
+          <a href="#" id="share-button" class="share-button" data-tooltip="#social-medias-content">
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13"><path fill="#6E8098" d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"/></svg>
+          </a>
         </div>
       </section>
 
-      
     </article>
   </div>
 
@@ -48,6 +49,22 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Ozan GÖKDEMIR</a>.
   </footer>
+
+<div style="display:none" id="social-medias-content">
+  <h5 class="share-title">SHARE</h5>
+  <a href='#' id="btn-share-facebook">
+    <img src="./images/icon-facebook.svg" width="20px" height="20px" alt="Facebook icon">
+  </a>
+  <a href='#' id="btn-share-twitter">
+    <img src="./images/icon-twitter.svg" width="20px" height="17px" alt="Twitter icon">
+  </a>
+  <a href='#' id="btn-share-pinterest">
+    <img src="./images/icon-pinterest.svg" width="20px" height="20px" alt="Pinterest icon">
+  </a>
+  
+</div>
+
+<script src="social-medias.js"></script>
 
 </body>
 </html>

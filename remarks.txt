@@ -1,0 +1,2 @@
+bulle se décale en resizant la fenêtre (car générée par le click)
+fix svg behaviour and padding
